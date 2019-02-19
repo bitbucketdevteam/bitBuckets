@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>viewerBucketDetailSingle</title>
+<link href="viewer.css" rel="stylesheet" type="text/css">
+
+	
+</head>
+
+<body class="viewerBody">
+		<div class="header">
+			Back</div> <!--return to viewerHome.html-->
+	<div class="groupMain"><!--wrapper for group-specific elements-->
+		<div class="groupInfoContainer">
+			<div class="groupImgContainer"></div>
+			<div class="groupTextContainer">This is about how much text you get to describe the whole group. I think it's enough.</div>
+		</div>
+	    <div class="groupBuyContainer" ><!--wrapper for all functional elements-->
+			<div class="sliderContainer">Add <output id="sliderOut" >*select amount*</output> bits<br>to one of these buckets:
+				<input type="range" class="slider" id="sliderIn" min="5" max="100" step="5" oninput="sliderOut.value=sliderIn.value"></input>
+			</div>
+			<div class="bucketContainer">
+				<div class="bucketInfoContainer">
+					<div class="bucketDescription">You can write this much text in the description of bucket button, okay?</div>
+					<div class="bucketStatus">XXXXXX/XXXXXX<br>In this bucket</div>
+				</div>
+				<button class="bucketBtn">Vote</button><!--onclick buy(sku) sku=sliderOut.value-->
+			</div>
+			<div class="bucketContainer">
+				<div class="bucketInfoContainer">
+					<div class="bucketDescription">You can write this much text in the description of bucket button, okay?</div>
+					<div class="bucketStatus">XXXXXX/XXXXXX<br>In this bucket</div>
+				</div>
+				<button class="bucketBtn">Vote</button><!--onclick buy(sku) sku=sliderOut.value-->
+			</div>
+			<div class="bucketContainer">
+				<div class="bucketInfoContainer">
+					<div class="bucketDescription">You can write this much text in the description of bucket button, okay?</div>
+					<div class="bucketStatus">XXXXXX/XXXXXX<br>In this bucket</div>
+				</div>
+				<button class="bucketBtn">Vote</button><!--onclick buy(sku) sku=sliderOut.value-->
+			</div>
+		</div>	
+	</div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="viewer.css" type="text/css">
+<script src="storedVals.js"></script>
+<script src="overlay.js"></script>
+
+<body>
+  <div class="overlayBarContainer"> 
+    <div class="progressBaseOverlay">
+      <div id="b1Fill" class="progressFillOverlay" style="background-color: green";></div>
+    </div>
+    <div id="b1Box" class="countBox" style="background-color: green";>
+      <div id="b1Count" class ="counter">0</div>
+    </div>
+  </div>
+
+  <div class="overlayBarContainer">
+    <div class="progressBaseOverlay">
+      <div id="b2Fill" class="progressFillOverlay" style="background-color: red"></div>
+    </div>
+    <div id="b2Box" class="countBox" style="background-color: red">
+      <div id="b2Count" class ="counter">0</div>
+    </div>
+  </div>
+
+  <div class="overlayBarContainer">
+    <div class="progressBaseOverlay">
+      <div id="b3Fill" class="progressFillOverlay" style="background-color: blue"></div>
+    </div>
+    <div id="b3Box" class="countBox" style="background-color: blue">
+      <div id="b3Count" class ="counter">0</div>
+    </div>
+  </div>
+	
+<!--only for testing, to be removed and replaced by event trigger-->	
+  <br>
+  <button onclick="moveB1()">Demo "giveBits('g1b1',10)"</button> 
+  <button onclick="moveB2()">Demo "giveBits('g1b2',10)"</button> 
+  <button onclick="moveB3()">Demo "giveBits('g1b3',10)"</button> 
+	
+</body>
+</html>

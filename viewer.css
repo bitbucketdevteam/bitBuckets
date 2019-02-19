@@ -209,6 +209,7 @@
 .overlayBarContainer {
     height: 30px;
     width: 100%;
+	margin-bottom: 10px;
 }
 .progressBaseOverlay {
     position: relative;
@@ -237,4 +238,5 @@
     width: 30px;
     display: inline-block;
 	border-radius: 15px;
+	text-align: center;
 }
